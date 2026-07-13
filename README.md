@@ -51,11 +51,7 @@ Real hospital claims data is never publicly available due to HIPAA, so this proj
 
 ## Data Model
 
-```
-dim_payer ────┐
-              ├──< fact_claims >──(1:1)──< fact_denials >──┐
-dim_procedure ┘                                            ├── dim_denial_category
-```
+<img width="1331" height="777" alt="image" src="https://github.com/user-attachments/assets/6856b6c4-5ba5-4318-8415-be8292d6efc2" />
 
 - `fact_claims` - one row per claim; measures: `billed_amount`, `allowed_amount`, `paid_amount`; attributes: payer, procedure, department, dates, status
 - `fact_denials` - one row per denial event, linked back to its parent claim; measures: `resubmitted_amount`; attributes: denial category, reason code, appeal status/outcome

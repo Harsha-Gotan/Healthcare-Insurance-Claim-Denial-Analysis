@@ -62,6 +62,8 @@ Real hospital claims data is never publicly available due to HIPAA, so this proj
 ### Page 1 — Executive Summary
 *Denial trends, root causes, and payer performance at a glance*
 
+<img width="1372" height="772" alt="image" src="https://github.com/user-attachments/assets/c3e0d33e-b487-41f0-9a49-841cfc25829d" />
+
 - **KPI cards** — Total Claims, Denial Rate %, Total Billed Denied, Appeal Success Rate % — the four numbers a stakeholder needs before anything else
 - **Denial Rate Trend by Month** (line chart) - tracks denial rate over a 12-month period, revealing whether the problem is stable, worsening, or improving over time
 - **Denials by Root Cause** (horizontal bar chart) - ranks denial categories (Authorization, Eligibility, Coding Error, Medical Necessity, Timely Filing, Duplicate Claim) by volume, immediately surfacing where the biggest problems concentrate
@@ -72,6 +74,8 @@ Real hospital claims data is never publicly available due to HIPAA, so this proj
 
 ### Page 2 — Financial Recovery & Drill-down
 *Where denied revenue goes, and the case for appealing more of it*
+
+<img width="1372" height="775" alt="image" src="https://github.com/user-attachments/assets/a7c747fb-d0d3-4731-883e-0ff4a89d9032" />
 
 - **KPI cards** - Total Denials, Appealed Count, Appeal Rate %, Appeals Won, Dollars Recovered - laid out to show the appeal funnel numerically at a glance (denials → appealed → won → recovered)
 - **Denial Rate by Procedure** (table) - every procedure code with total claims, denied claims, and denial rate %, sorted descending, with a totals row - lets a viewer drill from the high-level story down to specific services
